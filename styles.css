@@ -1,7 +1,166 @@
+/* Universl styles */
+
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
     border: 0;
-    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* structure styling */
+
+body {
+    font-family: "lato", sans-serif;
+    background-color: rgba(255, 252, 248, 1);
+}
+
+.container-main {
+    display: flex;
+    margin: 0 10%;
+    height: 800px;
+    background-color: rgb(207, 238, 238);
+    margin: 50px 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-left {
+    display: flex;
+    width: 50%;
+    background-image: url("./images/profile.png");
+    background-size:cover;
+}
+
+.container-right {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 252, 248, 1);;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgba(255, 252, 248, 1);
+}
+
+.project-container {
+    display: flex;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Element styling */
+
+.contact {
+    background-color: rgb(63, 63, 250);
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact:hover {
+    cursor: pointer;
+}
+
+.nav-item {
+    height: 80%;
+    padding: 0px 20px;
+    align-content: center;
+}
+
+.bio {
+    margin: 40px 20px 20px 0px;
+}
+
+.title {
+    align-self:flex-start;
+    font-size: 40px;
+}
+
+.title-main {
+    font-size: 100px;
+}
+
+.projects {
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: column;
+    width: 40%;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+#preview {
+    margin: 10px 0px;
+    width: 40%;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 10px 0px;
+    width: 20%;
+}
+
+.project-item {
+    width: 15rem;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a .project-item:hover {
+    background-color: rgb(164, 193, 231);
+    cursor: pointer;
+}
+
+a .project-item {
+    color: black;
+}
+
+#html {
+    display: none;
+}
+
+#css {
+    display: none;
+}
+
+#js {
+    display: none;
 }

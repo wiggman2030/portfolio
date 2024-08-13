@@ -25,7 +25,7 @@ projectLink3.onmouseover = function () {
     preview.style.backgroundImage = "url('')";
     htmlLogo.style.display = "none";
     cssLogo.style.display = "none";
-    jsLogo.style.display = "block";
+    jsLogo.style.display = "none";
 };
 
 projectLink1.onmouseleave = function () {
